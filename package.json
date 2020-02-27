@@ -1,0 +1,24 @@
+{
+  "name": "get-actions-payload-fields",
+  "version": "1.0.0",
+  "description": "This action reads certain fields from payload and return it to use in next step",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/li-yunjie/get-actions-payload-fields.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/li-yunjie/get-actions-payload-fields/issues"
+  },
+  "homepage": "https://github.com/li-yunjie/get-actions-payload-fields#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.2",
+    "@actions/github": "^2.1.1"
+  }
+}
