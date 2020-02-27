@@ -1,2 +1,2 @@
-# get-custom-payload-fields
+# get-actions-payload-fields
 Experiment with custom github actions
