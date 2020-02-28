@@ -1,21 +1,14 @@
-# get-actions-payload-fields
+# get-assignee
 
-This action reads certain fields from payload and return it to use in next step
+This action reads payload triggered by github actions and returns the `assignee` field from payload
 
-## Inputs
-
-### `who-to-greet`
-
-**Required** The name of the person to greet. Default `"World"`.
 
 ## Outputs
 
-### `time`
+### `assignee`
 
-The time we greeted you.
+returns the `login` value of assignee
 
 ## Example usage
 
-uses: actions/hello-world-javascript-action@v1
-with:
-  who-to-greet: 'Mona the Octocat'
+uses: li-yunjie/get-actions-payload-fields@master

@@ -1,13 +1,8 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
-inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
-    required: true
-    default: 'World'
+name: 'Get assignee'
+description: 'Returns the assignee login from pull request payload'
 outputs:
-  assignee: # id of assignee
-    description: 'The time we greeted you'
+  assignee:
+    description: 'assignee login'
 runs:
   using: 'node12'
   main: 'index.js'
