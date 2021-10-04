@@ -7,7 +7,7 @@ try {
   console.log(`The event payload: ${payload}`);
   if (github.context.payload.pull_request.assignee === null) {
     console.log(`The assignee is null`);
-    core.setOutput("assignee", null);
+    core.setOutput("assignee", "");
   } else {
     const assignee = JSON.stringify(github.context.payload.pull_request.assignee.login)
     console.log(`The assignee is ${assignee}`);
